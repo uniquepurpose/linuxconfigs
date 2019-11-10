@@ -15,9 +15,11 @@ PubkeyAuthentication yes
 PasswordAuthentication no
 PermitEmptyPasswords no
 PermitRootLogin no
+UsePAM yes
 
 PrintMotd no
 PrintLastLog yes
+AcceptEnv LANG LC_*
 
 X11Forwarding no
 TCPKeepAlive yes
