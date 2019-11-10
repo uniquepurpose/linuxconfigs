@@ -13,6 +13,7 @@ LoginGraceTime 60
 
 PubkeyAuthentication yes
 PasswordAuthentication no
+ChallengeResponseAuthentication no
 PermitEmptyPasswords no
 PermitRootLogin no
 UsePAM yes
